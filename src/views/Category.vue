@@ -14,27 +14,13 @@
 
             <v-row>
               <v-col cols="12" md="6" lg="4" v-for="i in 18" :key="i">
-                <v-hover
-                  v-slot:default="{ hover }"
-                  open-delay="50"
-                  close-delay="50"
-                >
+                <v-hover v-slot:default="{ hover }" open-delay="50" close-delay="50">
                   <div>
-                    <v-card
-                      flat
-                      :color="hover ? 'white' : 'transparent'"
-                      :elevation="hover ? 12 : 0"
-                      hover
-                      to="/detail"
-                    >
-                      <v-img
-                        src="https://cdn.pixabay.com/photo/2016/11/14/04/45/elephant-1822636_1280.jpg"
-                        :aspect-ratio="16 / 9"
-                        gradient="to top, rgba(25,32,72,.4), rgba(25,32,72,.0)"
-                        height="200px"
-                        class="elevation-2"
-                        style="border-radius: 16px"
-                      >
+                    <v-card flat :color="hover ? 'white' : 'transparent'" :elevation="hover ? 12 : 0" hover
+                      to="/detail">
+                      <v-img src="https://cdn.pixabay.com/photo/2016/11/14/04/45/elephant-1822636_1280.jpg"
+                        :aspect-ratio="16 / 9" gradient="to top, rgba(25,32,72,.4), rgba(25,32,72,.0)" height="200px"
+                        class="elevation-2" style="border-radius: 16px">
                         <v-card-text>
                           <v-btn color="accent">ANIMAL</v-btn>
                         </v-card-text>

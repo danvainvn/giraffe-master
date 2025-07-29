@@ -6,7 +6,7 @@
       <v-divider></v-divider>
 
       <div>
-        <v-row v-for="i in 5" :key="i" class="py-2">
+        <v-row v-for="i in 2" :key="i" class="py-2">
           <v-col cols="12" md="6" lg="5">
             <v-card height="100%" flat>
               <v-img
@@ -60,7 +60,7 @@
       <v-divider></v-divider>
 
       <div class="pt-4">
-        <div class="d-flex align-center mb-6" v-for="i in 5" :key="i">
+        <div class="d-flex align-center mb-6" v-for="i in 3" :key="i">
           <v-avatar color="accent" size="64">
             <v-icon dark x-large>mdi-feather</v-icon>
           </v-avatar>
@@ -79,7 +79,7 @@
       <v-divider></v-divider>
 
       <v-row class="pt-4">
-        <v-col v-for="i in 7" :key="i" class="flex-shrink-0" cols="auto">
+        <v-col v-for="i in 5" :key="i" class="flex-shrink-0" cols="auto">
           <v-chip color="accent">#Images</v-chip>
         </v-col>
       </v-row>
