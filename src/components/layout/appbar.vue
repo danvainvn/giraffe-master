@@ -104,24 +104,23 @@
 export default {
   data: () => ({
     drawer: null,
-    // btnItems: [
-    //   {
-    //     text: "Free Download",
-    //     href: "https://github.com/AGDholo/giraffe",
-    //     target: "_black",
-    //     color: "primary",
-    //     icon: "mdi-download",
-    //   },
-    // ],
+    btnItems: [
+      {
+        text: "Test Page",
+        to: "/postTest", // Use Vue Router navigation
+        color: "primary",
+        icon: "mdi-download",
+      },
+    ],
     barItems: [
       {
         title: "Home",
         to: "/",
       },
-      // {
-      //   title: "Category",
-      //   to: "/category",
-      // },
+      {
+        title: "Category",
+        to: "/category",
+      },
       {
         title: "Detail",
         to: "/detail",

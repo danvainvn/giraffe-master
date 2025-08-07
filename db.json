@@ -1,0 +1,26 @@
+    {
+        "posts": [
+            {
+                "id": 1,
+                "title": "JSON Server Introduction",
+                "author": "John Doe"
+            },
+            {
+                "id": 2,
+                "title": "Using JSON Server in Projects",
+                "author": "Jane Smith"
+            }
+        ],
+        "comments": [
+            {
+                "id": 1,
+                "body": "Great post!",
+                "postId": 1
+            },
+            {
+                "id": 2,
+                "body": "Very helpful!",
+                "postId": 2
+            }
+        ]
+    }
